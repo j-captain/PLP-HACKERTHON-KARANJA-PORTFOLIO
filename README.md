@@ -5,9 +5,9 @@ Welcome to my Professional Portfolio, a responsive and modern web application bu
 
 The project is designed with HTML, CSS, and JavaScript, ensuring a seamless experience across all devices. It includes sections for About Me, Skills, Projects, Experience, and Contact Information, making it a comprehensive representation of my work.
 
-🔗 Live Demo:  
-🚀 Features
+🔗 Live Demo: https://j-captain.github.io/PLP-HACKERTHON-KARANJA-PORTFOLIO/  
 
+🚀 Features
 ✅ Fully Responsive – Works on mobile, tablet, and desktop.
 ✅ Modern UI/UX Design – Clean, professional, and visually engaging.
 ✅ Interactive Elements – Smooth animations and dynamic content.
