@@ -352,7 +352,7 @@ body {
     margin-top: 80px;
     padding: 4rem 2rem;
     text-align: center;
-    background-image: url('karanjam.jpg');
+    background-image: url('resources/images/karanjam.jpg');
     background-size: cover;
     background-position: center;
     color: var(--light-text);
@@ -1195,7 +1195,7 @@ footer p a:hover
     transform: rotate(90deg);
 }
 
-/* Responsive design adjustments */
+/* Responsive design */
 @media (max-width: 768px) {
     .toggle-btn {
         display: block;
@@ -1218,5 +1218,210 @@ footer p a:hover
     .experience-container,
     .education-row {
         grid-template-columns: 1fr;
+    }
+}
+
+
+ /* More Responsiveness based on screen size */
+@media (max-width: 1024px) {
+    /* Tablet-sized screens */
+    .main-content, 
+    .skills-master-container,
+    .projects-master-container,
+    .forms-master-container {
+        padding: 1.5rem;
+    }
+    
+    .skills-inner-container,
+    .projects-inner-container {
+        gap: 1.5rem;
+    }
+    
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Small tablets and large phones */
+    .nav-content {
+        padding: 0.5rem 1rem;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .hero {
+        margin-top: 60px;
+        padding: 2rem 1rem;
+    }
+    
+    .main-content {
+        padding: 0 1rem;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+    
+    .skills-header {
+        flex-direction: column;
+    }
+    
+    .skills-title {
+        text-align: center !important;
+        font-size: 1.5rem;
+    }
+    
+    .column-left, 
+    .column-right {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    .divider {
+        width: 100%;
+        height: 1px;
+        margin: 1rem 0;
+    }
+    
+    .forms-inner-container {
+        flex-direction: column;
+    }
+    
+    .form-body {
+        min-width: 100%;
+    }
+    
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    label {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .social-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    footer {
+        padding: 10px;
+        height: auto;
+    }
+    
+    footer p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Phone-sized screens */
+    .navbar {
+        padding: 0.5rem;
+    }
+    
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .card {
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    
+    .skills-master-container,
+    .projects-master-container,
+    .forms-master-container {
+        padding: 1rem;
+        margin: 1.5rem auto;
+        border-radius: 15px;
+    }
+    
+    .skills-title {
+        font-size: 1.3rem;
+    }
+    
+    .social-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .screenshot-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hobbies-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .education-container,
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .education-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        margin: 20% auto;
+        max-width: 95%;
+    }
+    
+    .close-btn {
+        top: 10px;
+        right: 20px;
+        font-size: 30px;
+    }
+    
+    input[type="submit"],
+    .download-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Very small phones */
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+    
+    .card {
+        padding: 0.8rem;
+    }
+    
+    .form-container {
+        padding: 15px;
+    }
+    
+    .skills-title {
+        font-size: 1.1rem;
+    }
+    
+    footer p {
+        font-size: 0.8em;
     }
 }
